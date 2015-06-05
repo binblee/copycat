@@ -9,9 +9,7 @@ class ListPeople{
 		for(Person person : addressBook.getPersonList()){
 			System.out.println("Person ID: " + person.getId());
 			System.out.println(" - Name: " + person.getName());
-			if(person.hasEmail()){
-				System.out.println(" - Email address: " + person.getEmail());
-			}
+			System.out.println(" - Email address: " + person.getEmail());
 
 			for(Person.PhoneNumber phoneNumber : person.getPhoneList()){
 				switch(phoneNumber.getType()){

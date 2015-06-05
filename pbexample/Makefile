@@ -14,6 +14,9 @@ addrr: protocompile addrr.cc addressbook.pb.cc addressbook.pb.h
 
 java: ListPeople.java tutorial/AddressBookProtos.java
 	javac -cp protobuf-java-3.0.0-alpha-4-pre.jar:. ListPeople.java tutorial/AddressBookProtos.java
+	echo "#!/bin/bash" > jaddrr
+	echo "java -cp protobuf-java-3.0.0-alpha-4-pre.jar:. ListPeople" >> jaddrr
+	chmod a+x jaddrr
 
 clean:
 	rm -f addr
