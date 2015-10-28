@@ -6,7 +6,12 @@
 
 - classes.js
 - string-template.js
+- object-literals.js
 
 [ES6 In Depth: Arrow functions]( https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/)
 
 - array-function.js
+
+[JavaScript Promises](http://www.html5rocks.com/en/tutorials/es6/promises/)
+
+- promises.js
