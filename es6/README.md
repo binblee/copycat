@@ -15,3 +15,8 @@
 [JavaScript Promises](http://www.html5rocks.com/en/tutorials/es6/promises/)
 
 - promises.js
+
+
+[ES6 Generators](http://davidwalsh.name/es6-generators) and
+[Promises](http://blog.getify.com/promises-part-1/)
+- generators.js
