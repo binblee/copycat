@@ -19,6 +19,18 @@ Specify an 'engine' key in package.json if you want to lock down node version.
 
 ### Save dependencies when install package
 
+```
+npm install foobar --save --save-exact
+```
+
+Or you can set these options in ~/.npmrc to update your defaults.
+
+```
+npm config set save=true
+npm config set save-exact=true
+```
+
+
 ### ES6
 
 ### Stick with lowercase
