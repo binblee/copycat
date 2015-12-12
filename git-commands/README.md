@@ -1,4 +1,4 @@
-＃ GIT 常用命令
+# GIT 常用命令
 
 From: [阮一峰](http://www.ruanyifeng.com/home.html)
 [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
