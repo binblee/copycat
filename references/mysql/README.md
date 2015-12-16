@@ -92,4 +92,12 @@ mysql> show profile for query 5;
 | cleaning up                    | 0.000002 |
 +--------------------------------+----------+
 24 rows in set (0.00 sec)
+
+mysql> explain select * from code_area where code = 'c';
++----+-------------+-----------+------+---------------+------------+---------+-------+------+-------------+
+| id | select_type | table     | type | possible_keys | key        | key_len | ref   | rows | Extra       |
++----+-------------+-----------+------+---------------+------------+---------+-------+------+-------------+
+|  1 | SIMPLE      | code_area | ref  | code_index    | code_index | 258     | const |    1 | Using where |
++----+-------------+-----------+------+---------------+------------+---------+-------+------+-------------+
+1 row in set (0.00 sec)
 ```
