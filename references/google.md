@@ -115,3 +115,16 @@
 [Google Spanner原理- 全球级的分布式数据库](http://www.yankay.com/google-spanner%E5%8E%9F%E7%90%86-%E5%85%A8%E7%90%83%E7%BA%A7%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93/)
 [EMC颜开分析Dremel原理，如何在3秒内分析1PB数据](http://www.infoq.com/cn/news/2012/09/yankay-analyzes-dremel)
 [Google开源Key-Value数据库LevelDB](http://www.infoq.com/cn/news/2011/07/LevelDB)
+[Percolator：大数据集增量更新系统](http://www.infoq.com/cn/news/2010/10/google-percolator)
+[Google发布面向App Engine的High Replication Datastore](http://www.infoq.com/cn/news/2011/01/high-replication-datastore)
+[谷雪梅谈云计算](http://www.infoq.com/cn/interviews/guxuemei-cloudcomputing)
+
+[Docker背后的容器集群管理——从Borg到Kubernetes（一）](http://www.infoq.com/cn/articles/docker-container-cluster-management-part-01)
+[Docker背后的容器集群管理——从Borg到Kubernetes（二）](http://www.infoq.com/cn/articles/docker-container-cluster-management-part-02)
+
+[全方位对比Mesos、Omega和Borg](http://www.infoq.com/cn/articles/comparison-of-mesos-omega-and-borg)
+[Kubernetes和Borg的设计哲学](http://www.infoq.com/cn/presentations/practice-cloud-platform)
+[Kubernetes距管理1000个节点还有多远？](http://www.infoq.com/cn/news/2015/09/Kubernetes-1000)
+[Kubernetes  在InfoQ上的内容](http://www.infoq.com/cn/kubernetes/)
+
+[性能扩展的那些事儿：一味增加硬件并不能解决响应时间问题](http://www.infoq.com/cn/news/2013/03/highscalability-02-29)
