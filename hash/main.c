@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "hash.h"
 
+#define HELLO_WORLD "Hello World!"
 int main() {
-    unsigned int hash = djb2("Hello World!");
-    printf("dbj2 hash %u\n",hash);
-
-    hash = sdbm("Hello World!");
-    printf("sdbm hash %u\n", hash);
+    HT* ht = ht_init();
+    ht_set(ht,HELLO_WORLD,1);
+    int value = ht_get(ht,HELLO_WORLD);
+    printf("%d\n",value);
+    ht_destroy(ht);
     return 0;
 }
