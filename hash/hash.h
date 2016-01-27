@@ -1,10 +1,17 @@
 #ifndef __HASH_H__
 #define __HASH_H__
 
+typedef struct _HT_ITEM {
+    char    *key;
+    int     key_length;
+    int     value;
+    struct _HT_ITEM *next;
+} HT_ITEM;
+
 typedef struct _HT{
-    int*   array;
-    int     array_length;
-    int     num;
+    HT_ITEM*    array;
+    int         array_length;
+    int         num;
 } HT ;
 
 
