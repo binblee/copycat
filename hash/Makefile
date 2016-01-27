@@ -8,10 +8,10 @@ testhash: main.o hash.o
 main.o: main.c
 	gcc $(COMPILE_OPTIONS) -c main.c
 
-hash.o: hash.c
+hash.o: hash.c hash.h
 	gcc $(COMPILE_OPTIONS) -c hash.c
 
-test:
+test: build
 	./testhash
 
 clean: build
