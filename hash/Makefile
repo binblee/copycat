@@ -1,6 +1,6 @@
 COMPILE_OPTIONS = -Wpointer-sign -Wformat
 
-all: testhash
+build: testhash
 
 testhash: main.o hash.o
 	gcc -o testhash main.o hash.o
@@ -14,6 +14,6 @@ hash.o: hash.c
 test:
 	./testhash
 
-clean:
+clean: build
 	rm *.o
 	rm testhash
